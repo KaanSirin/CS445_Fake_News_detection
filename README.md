@@ -8,7 +8,10 @@ There are 6 labels, initially we can try binary classsification and develop a si
 
 Even in the literature, 6-way F1 score is ~0.3, which may be discouraging for us. So it is better to start with 
 
-
+This follows what we want to do very closely, Table 2 shows classification performances off different approaches including LR, SVM, BiLSTM for binary and 6-way classification:
 https://aclanthology.org/W18-5513.pdf
 
+This is the original paper, Table 2 shows the results for using metadata on top of the text in hybrid CNN models:
 https://arxiv.org/pdf/1705.00648v1
+
+Following these would be a good start. We may want look at other papers as well that are nor LIAR specific in the future.
