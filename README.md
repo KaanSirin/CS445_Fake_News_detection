@@ -9,9 +9,21 @@ There are 6 labels, initially we can try binary classsification and develop a si
 Even in the literature, 6-way F1 score is ~0.3, which may be discouraging for us. So it is better to start with 
 
 This follows what we want to do very closely, Table 2 shows classification performances off different approaches including LR, SVM, BiLSTM for binary and 6-way classification:
-https://aclanthology.org/W18-5513.pdf
+1. https://aclanthology.org/W18-5513.pdf
 
 This is the original paper, Table 2 shows the results for using metadata on top of the text in hybrid CNN models:
-https://arxiv.org/pdf/1705.00648v1
+2. https://arxiv.org/pdf/1705.00648v1
 
 Following these would be a good start. We may want look at other papers as well that are nor LIAR specific in the future.
+
+## Weirdness
+For binary classification done in the first paper (from EMNLP) we achieve the same performance with no meta-data, just statement tf-idf vectorized
+- Acc:	0.613
+- F1:	0.696
+
+6-way classification result is much more realistic, this could be our baseline
+
+- Acc:	0.199
+- F1:	0.184
+
+I think we should mainly focus on 6-way, as the binary one is trivial, we can follow the 2nd paper which is the original dataset, and use metadata in the baseline model to see performance improvements
