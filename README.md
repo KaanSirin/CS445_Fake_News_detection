@@ -22,6 +22,9 @@ This is an example that uses BERT and RoBERTa models on LIAR fake news detection
 
 3. https://github.com/SindhuMadi/FakeNewsDetection/blob/main/BERT_ROBERT_V1_2Epochs_32batch.ipynb
    
+==Modern BERT, this came out on 19.12.2024 ***5 days ago*** modernizing the BERT (2018) with current architecture and scaling== it would be nice if we could incorporate it
+
+**4. https://huggingface.co/blog/modernbert**
 
 ## Weirdness
 For binary classification done in the first paper (from EMNLP) we achieve the same performance with no meta-data, just statement tf-idf vectorized
