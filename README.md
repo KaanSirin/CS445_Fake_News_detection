@@ -26,6 +26,10 @@ This is an example that uses BERT and RoBERTa models on LIAR fake news detection
 
 **4. https://huggingface.co/blog/modernbert**
 
+Fine tuning Modern Bert for classification task, blog
+
+5. https://www.philschmid.de/fine-tune-modern-bert-in-2025
+
 ## Weirdness
 For binary classification done in the first paper (from EMNLP) we achieve the same performance with no meta-data, just statement tf-idf vectorized
 - Acc:	0.613
