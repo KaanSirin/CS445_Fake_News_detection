@@ -30,6 +30,12 @@ Fine tuning Modern Bert for classification task, blog
 
 5. https://www.philschmid.de/fine-tune-modern-bert-in-2025
 
+Label Embedding, maintains interpretability with high performance, we can try this 
+
+6. https://github.com/guoyinwang/LEAM/
+
+I think trying 4 and 6 will be good enough
+
 ## Weirdness
 For binary classification done in the first paper (from EMNLP) we achieve the same performance with no meta-data, just statement tf-idf vectorized
 - Acc:	0.613
